@@ -7,11 +7,12 @@ header{
     width: 940px;
     position: relative;
     margin: 0 auto;
+    padding: 16px 0 0 0; 
 }
 
 nav{
     position: absolute;
-    top: 110px;
+    top: 65px;
     right: 0px;
 }
 
@@ -44,6 +45,7 @@ nav a:hover{
 }
 
 .caixa-zhong{
+    background-image: url('https://images.app.goo.gl/3DEy6ouZiaK7QfMAA');
     text-align: center;
     margin-top: 50px;
     padding: 2em;
@@ -51,4 +53,26 @@ nav a:hover{
 
 body{
     background: linear-gradient(#131111, #d4c6c6)
+}
+
+p, h2{
+    text-align: center;
+}
+
+.titulo_principal{
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#historia{
+    font-style: italic;
+    font-size: 25px;
+    margin: 10px 10px;
+    padding: 0 px;
+}
+
+.caixa_hist{
+    border: 2px solid;
+    padding: 5px;
 }
