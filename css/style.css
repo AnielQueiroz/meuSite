@@ -1,0 +1,54 @@
+header{
+    background: #302c2c;
+    padding: 20px 0;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+#gato_zhong{
+    width: 100px;
+}
+
+#yu_collector{
+    width: 80%;
+    border-radius: 20px;
+    
+}
+
+.caixa-zhong{
+    text-align: center;
+    margin-top: 50px;
+    padding: 2em;
+}
+
+body{
+    background: linear-gradient(#131111, #d4c6c6)
+}
